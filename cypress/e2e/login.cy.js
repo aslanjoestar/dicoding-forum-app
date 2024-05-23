@@ -118,7 +118,7 @@ describe('Login spec', () => {
       .click()
 
     cy.get('header')
-      .contains(/^Discussy$/)
+      .contains(/^Dicoding$/)
       .should('be.visible')
     cy.get('h1')
       .contains(/^Diskusi Tersedia$/)
