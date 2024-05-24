@@ -40,8 +40,7 @@ const useInput = (rules) => {
     value,
     setValue,
     isValid,
-    onBlur: handleBlur,
-    isError
+   
   }
 }
 
